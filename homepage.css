@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+}
+
+#menubar{
+	/*border: 1px solid black;*/
+}
+
+#pagecontent{
+	height: 42em;
+	/*border: 1px solid black;*/	
+}
+
+.menu_options{
+	/*border: 1px solid black;*/	
+	display: inline-block;
+}
+
+button {
+    outline: none;
+    border-radius: 15px;
+    padding: 0 188px;
+    margin: auto;
+}
+
+.dobutton {
+    background-color: #05abe9;
+    color: #FFFFFF;
+}
+
+.dobutton:hover {
+    background-color: #969494;
+}
+
+#username {
+    margin-left: 900px;
+}
+
+#logout {
+    background-color: #222222;
+    color: #FFFFFF;
+    /*float: right;*/
+}
+
+#logout:hover {
+    background-color: #969494;
+}
+
+#header {
+    padding: 10px 0;
+    margin-left: 18px;
+}
+
+#new_message {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 1px 0;
+}
+
+.textfield {
+    width: 100%;    
+}
+
+textarea {
+    width: 100%;  
+    height: 400px;
+    font-family: Arial;
+} 
+
+#Send {
+    background-color: #05abe9;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#Send:hover {
+    background-color: #969494;
+}
