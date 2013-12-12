@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    //session_start();
 
 	$username = $_REQUEST['username'];
 	$password = $_REQUEST['password'];
@@ -20,7 +20,8 @@
     }else{
     	// ends something to javascript if it succeeds
     	//session_start();
-    	$_SESSION['username']=$username;
+    	//$_SESSION['username']=$username;
+    	setcookie('username',$username,time()+900);
     	echo "pass";
     }
 
