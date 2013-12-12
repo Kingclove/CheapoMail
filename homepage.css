@@ -1,3 +1,5 @@
+/* ------------------ HOMEPAGE ------------------ */
+
 body {
     font-family: Arial;
 }
@@ -11,6 +13,8 @@ body {
 	/*border: 1px solid black;*/	
 }
 
+/* -------------------- MENUBAR -------------------- */
+
 .menu_options{
 	/*border: 1px solid black;*/	
 	display: inline-block;
@@ -18,9 +22,11 @@ body {
 
 button {
     outline: none;
-    border-radius: 15px;
-    padding: 0 188px;
+    border-radius: 10px;
+    padding: 16px 190px;
     margin: auto;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .dobutton {
@@ -32,19 +38,22 @@ button {
     background-color: #969494;
 }
 
-#username {
+/*#username {
     margin-left: 900px;
-}
+}*/
 
 #logout {
     background-color: #222222;
     color: #FFFFFF;
-    /*float: right;*/
+    float: right;
+    padding: 16px 50px;
 }
 
 #logout:hover {
     background-color: #969494;
 }
+
+/* ------------------- COMPOSE ------------------- */
 
 #header {
     padding: 10px 0;
@@ -77,3 +86,43 @@ textarea {
 #Send:hover {
     background-color: #969494;
 }
+
+/* -------------------- INBOX --------------------- */
+
+#table_header {
+    margin: auto;
+    padding: 20px 0;
+}
+
+.header {
+    
+}
+
+/* -------------------- PEOPLE ---------------------- */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    border-color: #CECCCC;
+}
+
+h2 {
+    text-align: center;
+}
+
+th {
+    margin: auto;
+    padding: 0 90px;   
+    background-color: #222222;
+} 
+
+td {
+    padding: 5px 90px;
+    background-color: #DDDDDD;
+    color: #222222;
+}
+
+
+
