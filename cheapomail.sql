@@ -69,8 +69,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 INSERT INTO user (first_name, last_name, password, username) VALUES ('Cardinal','Skagen 21','stuffs','kingclove');
-INSERT INTO user (first_name, last_name, password, username) VALUES ('Nemo','Fastlane','supra','north');
-INSERT INTO user (first_name, last_name, password, username) VALUES ('Boss','Lady','chineyting','simsima');
+INSERT INTO user (first_name, last_name, password, username) VALUES ('Toyota','Fastlane','supra','north');
+INSERT INTO user (first_name, last_name, password, username) VALUES ('Subaru','Lady','chineyting','simsima');
 INSERT INTO user (first_name, last_name, password, username) VALUES ('North','Pole','freiza','kooler');
 INSERT INTO user (first_name, last_name, password, username) VALUES ('Old','Navy','sandals','plastic');
 INSERT INTO user (first_name, last_name, password, username) VALUES ('Justice','League','cape','hero');
@@ -78,5 +78,5 @@ INSERT INTO user (first_name, last_name, password, username) VALUES ('Orderin','
 
 SHOW TABLES;
 SELECT * FROM user;
-SELECT * FROM messages;
+SELECT * FROM message;
 SELECT * FROM message_read;
