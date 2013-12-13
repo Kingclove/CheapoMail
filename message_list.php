@@ -1,12 +1,9 @@
-<table>
-	<tr id="table_header">
-		<th class ="header">From</th>
-		<th class ="header">Subject</th>
-		<th class ="header">Body</th>
+<table id="table_header">
+	<tr>
+		<th id ="header1">From</th>
+		<th id ="header2">Subject</th>
+		<th id ="header3">Body</th>
 	</tr>
-
-
-
 
 <?php
 	$con=mysqli_connect("127.8.14.1","chineyting", "" ,"cheapomail");
@@ -41,7 +38,7 @@
 			echo "</tr>";
 		}
 	}else{
-	    echo"Not logged in";
+	    echo "Not logged in";
 	}
 ?>
 </table>
