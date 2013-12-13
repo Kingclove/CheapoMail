@@ -89,15 +89,24 @@ textarea {
 
 /* -------------------- INBOX --------------------- */
 
-#table_header {
+#header1 {
     margin: auto;
-    padding: 20px 0;
+    padding: 10px 40px 10px 16px;
 }
 
-.header {
-    
+#header2 {
+    margin: auto;
+    padding: 10px 60px;
 }
 
+#header3 {
+    margin: auto;
+    padding: 10px 400px;
+}
+
+#table_header td {
+    border-bottom: 1px solid #CECCCC;
+}
 /* -------------------- PEOPLE ---------------------- */
 
 table {
@@ -123,6 +132,3 @@ td {
     background-color: #DDDDDD;
     color: #222222;
 }
-
-
-
