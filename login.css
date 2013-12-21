@@ -52,7 +52,11 @@ fieldset {
     margin-top: 20px;
     font-size: 15px;
     outline: none;
+    cursor: pointer;
+    border: none;
 }
 
-
+#login:hover {
+    background-color: #969494;
+}
 
