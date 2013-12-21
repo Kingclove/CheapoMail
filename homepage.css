@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial;
+    
 }
 
 #menubar{
@@ -21,21 +22,26 @@ body {
 }
 
 button {
+    border: none;
     outline: none;
     border-radius: 10px;
-    padding: 16px 190px;
-    margin: auto;
+    /*padding: 16px 190px;*/
+    /*margin: auto;*/
     font-size: 17px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .dobutton {
     background-color: #05abe9;
     color: #FFFFFF;
+    width: 440px;
+    padding: 10px 0;
 }
 
 .dobutton:hover {
     background-color: #969494;
+   
 }
 
 /*#username {
@@ -46,11 +52,15 @@ button {
     background-color: #222222;
     color: #FFFFFF;
     float: right;
-    padding: 16px 50px;
+    padding: 10px 0;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 4px;
 }
 
 #logout:hover {
     background-color: #969494;
+   
 }
 
 /* ------------------- COMPOSE ------------------- */
@@ -66,6 +76,10 @@ button {
     padding: 1px 0;
 }
 
+fieldset {
+    background-color: #cecccc;
+}
+
 .textfield {
     width: 100%;    
 }
@@ -78,7 +92,7 @@ textarea {
 
 #Send {
     background-color: #05abe9;
-    padding: 10px 25px;
+    padding: 5px 25px;
     border-radius: 10px;
     color: #FFFFFF;
 }
@@ -88,6 +102,11 @@ textarea {
 }
 
 /* -------------------- INBOX --------------------- */
+
+#table_header {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #header1 {
     margin: auto;
@@ -107,6 +126,53 @@ textarea {
 #table_header td {
     border-bottom: 1px solid #CECCCC;
 }
+
+#table_header tr:hover td {
+    background-color: #969494;
+    cursor: pointer;
+}
+
+/* ------------------- READ ------------------------*/
+
+.readme {
+    border: 1px solid white;    
+    width: 1200px;
+    margin-left: 70px;
+}
+
+#subject2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#from {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    color: #707070;
+}
+
+hr {
+    border: 1px solid #969494;
+}
+
+#hr2 {
+    border: 1px solid #dddddd;
+    /* width: 1300px; */
+}
+
+#message_body {
+    margin-left: 40px;
+}
+
+#reply {
+    
+}
+
 /* -------------------- PEOPLE ---------------------- */
 
 table {
@@ -128,7 +194,10 @@ th {
 } 
 
 td {
-    padding: 5px 90px;
+    padding: 5px 70px;
     background-color: #DDDDDD;
     color: #222222;
 }
+
+
+
