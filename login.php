@@ -21,7 +21,7 @@
     	// ends something to javascript if it succeeds
     	//session_start();
     	//$_SESSION['username']=$username;
-    	setcookie('username',$username,time()+900);
+    	setcookie('username',$username,time()+2000);
     	echo "pass";
     }
 
