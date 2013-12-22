@@ -7,6 +7,13 @@ function validate(){
 	var username = $("username").value;
 	var password = $("password").value;
 	console.log("Got the values");
+    	var re =/((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,})/ ;
+	if(!(re.test(password))){
+        alert("Password not valid");
+        return false;
+	}
+	
+	
     var responseMessage;
 	var requeststring = "login.php?username="+username+"&password="+password;
 	var getstuff = new XMLHttpRequest();
@@ -15,10 +22,10 @@ function validate(){
            responseMessage = getstuff.responseText;
            console.log(responseMessage);
            if (responseMessage=="fail") {
-               document.getElementById("login_status").innerHTML= "<strong> Login Failed </strong>";
+               document.getElementById("login_status").innerHTML= "<div class='loginstat'><strong> Login Failed </strong></div>";
                 
             }else if(responseMessage=="pass"){
-                document.getElementById("login_status").innerHTML= "<strong> Login Success </strong>";
+                document.getElementById("login_status").innerHTML= "<div class='loginstat'><strong> Login Success </strong></div>";
                 window.location.href="homepage.html";
                 
             }
